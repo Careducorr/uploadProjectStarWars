@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planetas</title>
+    <link rel="stylesheet" href="./style-planets.css">
+    <link rel="shortcut icon" href="../assets/millennium-falcon.png">
+</head>
+<body>
+
+    <header>
+
+        <a href="../index.html">
+            <div id="logo">
+                <img src="../assets/star-wars-logo.png" alt="logo" id="logo-img">
+            </div>
+        </a>
+
+        <nav>
+
+            <ul>
+                <a href="../index.html">
+                    <li>Characters </li>
+                </a>
+
+                <a href="./planets.html">
+                    <li>Planetas</li>
+                </a>
+
+                <a href="./aircraft.html">
+                    <li>Aeronaves</li>
+                </a>
+
+            </ul>
+        </nav>
+
+        <div id="icons">
+
+            <a href="https://www.instagram.com/carlos.e.correia/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="https://www.facebook.com/Carloseduardo34567" target="_blank">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+
+            <a href="">
+                <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/carlos-eduardo-correia-9bab16277?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+        </div>
+    </header>
+
+    <div class="main-container">
+
+        <h2>Conheca todos os planetas de Star Wars em um so lugar</h2>
+        
+        <div class="main-content" id="main-content"></div>
+
+        <div class="modal" id="modal" onclick="hideModal()">
+            <div class="modal-content" id="modal-content"></div>
+        </div>
+ 
+        <div class="buttons">
+            <button id="back-button" disabled>Anterior</button>
+            <button id="next-button" disabled>Próxima</button>
+        </div>
+
+        <footer>
+            <p class="footer-logo">Star Wars Characters</p>
+            <p class="copyright">Desenvolvido por &copy; Carlos Eduardo</p>
+        </footer>
+    </div>
+
+    <script src="https://kit.fontawesome.com/70149e6b85.js" crossorigin="anonymous"></script>
+    <script src="script-planets.js"></script>
+
+</body>
+</html>
