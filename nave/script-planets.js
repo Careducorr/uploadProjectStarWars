@@ -18,7 +18,7 @@ window.onload = async () => {
 
 async function loadPlanets(url) {
     const mainContent = document.getElementById('main-content')
-    mainContent.innerHTML = ''; //limpar resultados anteriores.
+    mainContent.innerHTML = ''; //limpar resultados anteriores
     
     
     try {

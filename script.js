@@ -18,7 +18,7 @@ window.onload = async () => {
 
 async function loadCharacters(url) {
     const mainContent = document.getElementById('main-content')
-    mainContent.innerHTML = ''; //limpar os resultados anteriores.
+    mainContent.innerHTML = ''; //limpar os resultados anteriores
 
     try {
         const response = await fetch(url)
