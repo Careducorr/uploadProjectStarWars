@@ -296,4 +296,14 @@ footer {
         font-size: 14px;
     }
 
+    
+    .planets-details {
+        font-size: 12px;
+    }
+
+    .modal-content {
+        width: 55vw;
+        height: 70vh;
+    }
+
 }

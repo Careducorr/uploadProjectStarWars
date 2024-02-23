@@ -54,23 +54,23 @@ async function loadCharacters(url) {
 
                 const name = document.createElement ("span")
                 name.className = "character-details"
-                name.innerText = `Nome:${character.name}`
+                name.innerText = `Nome: ${character.name}`
 
                 const characterHeight = document.createElement ("span")
                 characterHeight.className = "character-details"
-                characterHeight.innerText = `Altura:${convertHeight(character.height)}`
+                characterHeight.innerText = `Altura: ${convertHeight(character.height)}`
                 
                 const mass = document.createElement ("span")
                 mass.className = "character-details"
-                mass.innerText = `Peso:${convertMass(character.mass)}`
+                mass.innerText = `Peso: ${convertMass(character.mass)}`
                 
                 const eyeColor = document.createElement ("span")
                 eyeColor.className = "character-details"
-                eyeColor.innerText = `Cor dos olhos:${convertEyeColor(character.eye_color)}`
+                eyeColor.innerText = `Cor dos olhos: ${convertEyeColor(character.eye_color)}`
 
                 const birthYear = document.createElement ("span")
                 birthYear.className = "character-details"
-                birthYear.innerText = `Nascimento:${returnBirthYear(character.birth_year)}`
+                birthYear.innerText = `Nascimento: ${returnBirthYear(character.birth_year)}`
 
                 modalContent.appendChild(characterImage)
                 modalContent.appendChild(name)

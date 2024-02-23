@@ -296,4 +296,12 @@ li:hover {
         font-size: 14px;
     }
 
+    .character-details {
+        font-size: 12px;
+    }
+
+    .modal-content {
+        width: 55vw;
+        height: 70vh;
+    }
 }
